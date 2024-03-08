@@ -7,7 +7,7 @@ resource "proxmox_vm_qemu" "renee" {
   sockets                 = 1
   cpu                     = "host"
   memory                  = 4096
-  agent                   = 0 # 1
+  agent                   = 1
   full_clone              = true
   scsihw                  = "virtio-scsi-pci"
   bootdisk                = "scsi0"
@@ -47,7 +47,7 @@ resource "proxmox_vm_qemu" "alex" {
   sockets                 = 1
   cpu                     = "host"
   memory                  = 4096
-  agent                   = 0 # 1
+  agent                   = 1
   full_clone              = true
   scsihw                  = "virtio-scsi-pci"
   bootdisk                = "scsi0"
@@ -87,7 +87,7 @@ resource "proxmox_vm_qemu" "denis" {
   sockets                 = 1
   cpu                     = "host"
   memory                  = 4096
-  agent                   = 0 # 1
+  agent                   = 1
   full_clone              = true
   scsihw                  = "virtio-scsi-pci"
   bootdisk                = "scsi0"
