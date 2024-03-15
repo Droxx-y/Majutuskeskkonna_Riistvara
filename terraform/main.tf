@@ -30,9 +30,9 @@ resource "proxmox_vm_qemu" "renee" {
     }
   }
 
-  ipconfig0 = "ip=192.168.26.70/24,gw=192.168.26.1"
+  ipconfig0 = "ip=192.168.26.71/24,gw=192.168.26.1"
   sshkeys   = <<EOF
-  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDpPpW8ELgPVYVtJkJRO/Q30EfiyjPEbD5YkEdW6MkDvvyHEzjZmVqv+6vuDu318MaKk5GFSiyafsomFyfH0o6b9/EFSagXA+c3GVM5Kib9SrxbUOxa2Zv4Sf0ga9+V53nHULqwSTJ/TzICVovIIyjUm7K0Cir3X86wrcEEw66+rJ/U+AD7jRPYgrU069UCSeUlFIbLxt6w8P9N8akrrUhbVZbc+1zkG+TqKCnCsZidjqXo+eK2krAHo5+QJnnOAk4Al55hqRjM1IRlpf7vL1jIY0YCPBLMxy4STlu5zG5RGRmkJEz3a6xKowWG04aFU/YfKiqYNB36Q5BSXbTY9j51 sysadmin@ubuntu
+  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDGxJ4EHJMWVBevnqdfSd4bfz5urCwu3wqXJB/RVjmwNqtQ4Oow9bxpvSxJH+y0nwXz6UA6WaayaeqPrTOnPgjYzLcKZmjwiUbr15ldNgxzZ3qgmZ/l1dfGSuo97jzIVGpat6n1ffYrKWaVw0Ov1xL4k/caIUK8Z9LGZL4TU98RJ8+9Em8hoQ1BzDDc8lIjC+lAST4R8ry2/ufsWofB7MFSrVc7rt9Br2xbCkFpYo2kldOmIT1Nbqac49uwfnEUnUN6tm6fU4C5JWicn7r0P/elkh4BPsbAiCth0lsZNzzK3riNkUKdLPB5yCYx+r1kg9txKQ9RTpONI3WCPGvA10G1c6JN3Z7rm0Rmu54762sgLjkCcbKgefaYyQ/rZdh9c7i9RxCNEngk/F8I5juht9WtHzpyIamxVx1XRhmQZxF5t7P/df1KdrnGGZlt+ZIbLtKexIQc8/GlWNn3KvBYrxjQKzuBll1icx/DeFe5yIyyu6jLSninkZVeJRt01jf/iU0= sysadmin@A326-15-2
   EOF
 
 }
@@ -70,9 +70,9 @@ resource "proxmox_vm_qemu" "alex" {
     }
   }
 
-  ipconfig0 = "ip=192.168.26.71/24,gw=192.168.26.1"
+  ipconfig0 = "ip=192.168.26.72/24,gw=192.168.26.1"
   sshkeys   = <<EOF
-  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDpPpW8ELgPVYVtJkJRO/Q30EfiyjPEbD5YkEdW6MkDvvyHEzjZmVqv+6vuDu318MaKk5GFSiyafsomFyfH0o6b9/EFSagXA+c3GVM5Kib9SrxbUOxa2Zv4Sf0ga9+V53nHULqwSTJ/TzICVovIIyjUm7K0Cir3X86wrcEEw66+rJ/U+AD7jRPYgrU069UCSeUlFIbLxt6w8P9N8akrrUhbVZbc+1zkG+TqKCnCsZidjqXo+eK2krAHo5+QJnnOAk4Al55hqRjM1IRlpf7vL1jIY0YCPBLMxy4STlu5zG5RGRmkJEz3a6xKowWG04aFU/YfKiqYNB36Q5BSXbTY9j51 sysadmin@ubuntu
+  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDGxJ4EHJMWVBevnqdfSd4bfz5urCwu3wqXJB/RVjmwNqtQ4Oow9bxpvSxJH+y0nwXz6UA6WaayaeqPrTOnPgjYzLcKZmjwiUbr15ldNgxzZ3qgmZ/l1dfGSuo97jzIVGpat6n1ffYrKWaVw0Ov1xL4k/caIUK8Z9LGZL4TU98RJ8+9Em8hoQ1BzDDc8lIjC+lAST4R8ry2/ufsWofB7MFSrVc7rt9Br2xbCkFpYo2kldOmIT1Nbqac49uwfnEUnUN6tm6fU4C5JWicn7r0P/elkh4BPsbAiCth0lsZNzzK3riNkUKdLPB5yCYx+r1kg9txKQ9RTpONI3WCPGvA10G1c6JN3Z7rm0Rmu54762sgLjkCcbKgefaYyQ/rZdh9c7i9RxCNEngk/F8I5juht9WtHzpyIamxVx1XRhmQZxF5t7P/df1KdrnGGZlt+ZIbLtKexIQc8/GlWNn3KvBYrxjQKzuBll1icx/DeFe5yIyyu6jLSninkZVeJRt01jf/iU0= sysadmin@A326-15-2
   EOF
 
 }
@@ -110,9 +110,9 @@ resource "proxmox_vm_qemu" "denis" {
     }
   }
 
-  ipconfig0 = "ip=192.168.26.72/24,gw=192.168.26.1"
+  ipconfig0 = "ip=192.168.26.73/24,gw=192.168.26.1"
   sshkeys   = <<EOF
-  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDpPpW8ELgPVYVtJkJRO/Q30EfiyjPEbD5YkEdW6MkDvvyHEzjZmVqv+6vuDu318MaKk5GFSiyafsomFyfH0o6b9/EFSagXA+c3GVM5Kib9SrxbUOxa2Zv4Sf0ga9+V53nHULqwSTJ/TzICVovIIyjUm7K0Cir3X86wrcEEw66+rJ/U+AD7jRPYgrU069UCSeUlFIbLxt6w8P9N8akrrUhbVZbc+1zkG+TqKCnCsZidjqXo+eK2krAHo5+QJnnOAk4Al55hqRjM1IRlpf7vL1jIY0YCPBLMxy4STlu5zG5RGRmkJEz3a6xKowWG04aFU/YfKiqYNB36Q5BSXbTY9j51 sysadmin@ubuntu
+  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDGxJ4EHJMWVBevnqdfSd4bfz5urCwu3wqXJB/RVjmwNqtQ4Oow9bxpvSxJH+y0nwXz6UA6WaayaeqPrTOnPgjYzLcKZmjwiUbr15ldNgxzZ3qgmZ/l1dfGSuo97jzIVGpat6n1ffYrKWaVw0Ov1xL4k/caIUK8Z9LGZL4TU98RJ8+9Em8hoQ1BzDDc8lIjC+lAST4R8ry2/ufsWofB7MFSrVc7rt9Br2xbCkFpYo2kldOmIT1Nbqac49uwfnEUnUN6tm6fU4C5JWicn7r0P/elkh4BPsbAiCth0lsZNzzK3riNkUKdLPB5yCYx+r1kg9txKQ9RTpONI3WCPGvA10G1c6JN3Z7rm0Rmu54762sgLjkCcbKgefaYyQ/rZdh9c7i9RxCNEngk/F8I5juht9WtHzpyIamxVx1XRhmQZxF5t7P/df1KdrnGGZlt+ZIbLtKexIQc8/GlWNn3KvBYrxjQKzuBll1icx/DeFe5yIyyu6jLSninkZVeJRt01jf/iU0= sysadmin@A326-15-2
   EOF
 
 }
